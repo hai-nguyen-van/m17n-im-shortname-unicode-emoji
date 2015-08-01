@@ -1,4 +1,4 @@
-Unicode Emoji Symbols Input Method in GutHub-style
+Unicode Emoji IM in GitHub syntax
 ===================
 
 > An input method based on [`m17n` library](http://www.nongnu.org/m17n) to type [Unicode Emoji](http://apps.timwhitlock.info/emoji/tables/unicode) with [GitHub input method](http://www.emoji-cheat-sheet.com) :octocat::grimacing:

@@ -1,4 +1,11 @@
+# Pending features
+
+# 1. Needs to check in /usr/share/m17n/mdb.dir
+#    that [input-method] will take [.mim] file into account
+#    Typically, this is enough: (input-method * "*.mim") 
+
+# 2. Needs to check whether to restart IBus or SCIM deamon
+
 install:
-	sudo ibus-table-createdb -n /usr/share/ibus-table/tables/verbose-emoji.db -s verbose-emoji.txt
-	sudo cp verbose-emoji.svg /usr/share/ibus-table/icons/
+	sudo cp x-github-emoji.mim /usr/share/m17n
 	ibus-daemon -drx

@@ -1,9 +1,9 @@
-Unicode Emoji IM in GitHub syntax
+Unicode Emoji IM in web shortcode syntax
 ===================
 
-> An input method based on [`m17n` library](http://www.nongnu.org/m17n) to type [Unicode Emoji](http://apps.timwhitlock.info/emoji/tables/unicode) with [GitHub input method](http://www.emoji-cheat-sheet.com) :octocat::grimacing:
+> An input method based on [`m17n` library](http://www.nongnu.org/m17n) to type [Unicode Emoji](http://apps.timwhitlock.info/emoji/tables/unicode) with [web shortcodes input method](http://www.emoji-cheat-sheet.com) :octocat::grimacing:
 
-![Alt name](screenshot.png "A screenshot")
+![Alt name](screenshot.gif "A screenshot")
 
 Requirements
 -------------------

@@ -1,0 +1,25 @@
+(input-method x shortcode-unicode-emoji)
+
+(description (_"Input method for Unicode Emoji symbols typed as web shortcodes"))
+
+(title "Emoji 😄")
+
+(map
+  (trans
+   (":sweatsmile:" 0x1F601) ;; 😅
+   (":grimacing:"  0x1F602) ;; 😁
+   (":joy:"        0x1F603) ;; 😂
+   (":smiley:"     0x1F604) ;; 😃
+   (":smile:"      0x1F605) ;; 😄
+   (":laughing:"   0x1F606) ;; 😆
+   (":wink:"       0x1F609) ;; 😉
+   (":blush:"      0x1F60A) ;; 😊
+   (":yum:"        0x1F60B) ;; 😋
+))
+
+(state (init (trans)))
+
+;; Local Variables:
+;; coding: utf-8
+;; mode: emacs-lisp
+;; End:

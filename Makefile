@@ -7,6 +7,6 @@
 # 2. Needs to check whether to restart IBus or SCIM deamon
 
 install:
-	sudo cp x-github-emoji.mim /usr/share/m17n
-	sudo cp x-github-emoji.png /usr/share/m17n/icons
+	sudo cp x-shortcode-unicode-emoji.mim /usr/share/m17n
+	sudo cp x-shortcode-unicode-emoji.png /usr/share/m17n/icons
 	ibus-daemon -drx

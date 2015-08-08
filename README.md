@@ -3,6 +3,8 @@ Unicode Emoji IM in GitHub syntax
 
 > An input method based on [`m17n` library](http://www.nongnu.org/m17n) to type [Unicode Emoji](http://apps.timwhitlock.info/emoji/tables/unicode) with [GitHub input method](http://www.emoji-cheat-sheet.com) :octocat::grimacing:
 
+![Alt name](screenshot.png "A screenshot")
+
 Requirements
 -------------------
 - An input method framework like [IBus](https://github.com/ibus/ibus/wiki)
@@ -17,5 +19,5 @@ Install
 
 Example
 -------------------
-Typing `:smile` will directly be substituted by Unicode symbol `😅` (U+1F604).
+Typing `:smile:` will directly be substituted by Unicode symbol `😅` (U+1F604).
 

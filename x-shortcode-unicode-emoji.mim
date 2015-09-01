@@ -850,6 +850,7 @@
    (":yen:"	0x1F4B4)
    (":yum:"	0x1F60B)
    (":zap:"	0x026A1)
+   (":zzz:"	0x1F4A4)
 ))
 
 (state (init (trans)))

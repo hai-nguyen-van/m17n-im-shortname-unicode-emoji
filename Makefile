@@ -8,5 +8,11 @@
 
 install:
 	sudo cp x-shortcode-unicode-emoji.mim /usr/share/m17n
+	sudo chmod 644 /usr/share/m17n/x-shortcode-unicode-emoji.mim
+
 	sudo cp x-shortcode-unicode-emoji.png /usr/share/m17n/icons
-	ibus-daemon -drx
+	sudo chmod 644 /usr/share/m17n/icons/x-shortcode-unicode-emoji.png
+
+# For Ubuntu 12.04
+#	ibus-daemon -drx
+	ibus-daemon

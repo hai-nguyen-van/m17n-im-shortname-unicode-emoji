@@ -6,13 +6,17 @@
 
 # 2. Needs to check whether to restart IBus or SCIM deamon
 
+DESTDIR?=
+PREFIX?=/usr
+
+# For Ubuntu 12.04 and ArchLinux
+IBUSOPTS?=-drx
+
+INSTALL?=install
+
 install:
-	sudo cp x-shortcode-unicode-emoji.mim /usr/share/m17n
-	sudo chmod 644 /usr/share/m17n/x-shortcode-unicode-emoji.mim
+	$(INSTALL) -D -m 0644 x-shortcode-unicode-emoji.mim $(DESTDIR)$(PREFIX)/share/m17n/x-shortcode-unicode-emoji.mim
+	$(INSTALL) -D -m 0644 x-shortcode-unicode-emoji.png $(DESTDIR)$(PREFIX)/share/m17n/icons/x-shortcode-unicode-emoji.png
 
-	sudo cp x-shortcode-unicode-emoji.png /usr/share/m17n/icons
-	sudo chmod 644 /usr/share/m17n/icons/x-shortcode-unicode-emoji.png
-
-# For Ubuntu 12.04
-#	ibus-daemon -drx
-	ibus-daemon
+restart:
+	ibus-daemon $(IBUSOPTS)

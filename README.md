@@ -18,8 +18,9 @@ Requirements
 Install in Ubuntu 12.04
 -------------------
 1. Clone this repository
-2. Install the custom input method : `make install`
-3. Launch `ibus-setup` then add `shortname-unicode-emoji (m17n)` input method 
+2. Install the custom input method : `sudo make install`
+3. Restart the ibus daemon : `make restart`
+4. Launch `ibus-setup` then add `shortname-unicode-emoji (m17n)` input method
 
 Example
 -------------------
